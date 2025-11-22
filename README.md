@@ -38,14 +38,14 @@ Incluye:</br>
 <h3>Opcion de Conversión libre:</h3>
 - Muestra un cuadro con codigos de algunas monedas que puede usar.</br>
 - El usuario puede ingresar:</br>
-1) El código de moneda origen (ej: PEN).</br>
-2) El código destino (ej: JPY).</br>
+1) El código de moneda origen(2) (ej: PEN).</br>
+2) El código de moneda destino(2) (ej: JPY).</br>
 3) El monto a convertir:</br>
    → El sistema consulta la API y muestra el resultado(1).</br>
-<h6>(1) El resultado mostrará el monto y su valor correspondiente a la nueva moneda, 
-  ambos junto al codigo respectivo de su moneda</h6>
-  <img width="892" height="473" alt="opcion 7" src="https://github.com/user-attachments/assets/3509d050-3c74-4381-9f92-570d2a7822f9" />
 
+  <img width="892" height="473" alt="opcion 7" src="https://github.com/user-attachments/assets/3509d050-3c74-4381-9f92-570d2a7822f9" />
+<h6>(1) El resultado mostrará el monto y su valor correspondiente a la nueva moneda, ambos junto al codigo respectivo de su moneda.</br>
+(2) se recomienda escribir el codigo en mayúscula, aunque el programa detecta las minusculas (mediante un toUpperCase()). </h6>
 <h3>Opcion Historial de conversiones:</h3>
 Muestra un menu de historial que incluye:</br>
 - Moneda origen.</br>
